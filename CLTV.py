@@ -9,7 +9,7 @@ pd.set_option('display.float_format', lambda x: '%.2f' % x)
 pd.options.mode.chained_assignment = None
 
 # 1. OmniChannel.csv verisini okuyunuz.Dataframe’in kopyasını oluşturunuz.
-df_ = pd.read_csv("PycharmProjects/pythonProject4/CRM Analty/Rfm/flo_data_20k.csv")
+df_ = pd.read_csv("PycharmProjects/pythonProject4/CRM Analty/Rfm/data_20k.csv")
 df = df_.copy()
 df.head(10)
 
